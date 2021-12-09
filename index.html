@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section>
+        <p id="instruction"> Guess a number from 1 to 20. The sooner you get it, the higher your score!</p>
+        <div id="main_container">
+            <div id="scores_container">
+                <div id="highscore_image">
+                    <p>Highscore : <span id="highscore">0</span>
+                    </p>
+                </div>
+                <p id="current_score">Score : <span class="score">20</span></p>
+            </div>
+            <div id="mainboard">
+                <div class="circle">
+                    <p> <span id="display_score">?</span> </p>
+                </div>
+                <p id="guess">Guess the Number!</p>
+                <input class="number" type="number" min="1" max="20">
+                <button class="again">Play Again!</button>
+                <button class="check">Check</button>
+            </div>
+            <p id="jamil">Made by Jamyl</p>
+
+        </div>
+
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
