@@ -161,3 +161,13 @@ button:active {
     width: 130px;
   }
 }
+
+@media (max-height: 500px) {
+  #mainboard {
+    height: 65vh;
+  }
+
+  #instruction {
+    display: none;
+  }
+}
